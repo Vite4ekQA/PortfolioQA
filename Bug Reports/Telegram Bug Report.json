@@ -1,0 +1,17 @@
+{
+  "Bug_id":"1",
+  "Priority":"High",
+  "Summary":"Missing text in popup in telegram stories archive settings",
+  "Version":"9.6.4",
+  "Device": "iPhone 14 (16.5.1 20F75)",
+  "Steps to reproduce":
+  {
+    "1":"Open settings",
+    "2":"Tap my stories button",
+    "3":"Open Archive",
+    "4":"Tap the three dots in the upper right corner",
+    "5":"Pay attention the empty hint"
+  },
+  "Actual result":"There are popup without text in",
+  "Expected result":"The popup contains text with information about Telegram's stories"
+}
