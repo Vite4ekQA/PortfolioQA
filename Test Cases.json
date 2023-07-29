@@ -1,0 +1,41 @@
+{
+  "TestCase_id":"1",
+  "Title":"App settings are saved after restart",
+  "Steps":
+  {
+    "1":"Download and launch the app",
+    "2":"Go to the settings",
+    "3":"Change language",
+    "4":"Close the app",
+    "5":"Launch the app"
+  },
+  "Expected result":"Last settings are saved"
+}
+
+{
+  "TestCase_id":"2",
+  "Title":"Buying an offerer with a bad internet connection",
+  "Preconditions":"Set up a bad internet connection in Charles",
+  "Steps":
+  {
+    "1":"Download and launch the app",
+    "2":"Go to the market",
+    "3":"Buy any special offer",
+  },
+  "Expected result":"The offerer was purchased, the player received resources"
+}
+
+{
+  "TestCase_id":"3",
+  "Title":"Showing reward ads while minimizing the app in the tray and open from task switcher",
+  "Steps":
+  {
+    "1":"Download and launch the app",
+    "2":"Go to the market",
+    "3":"Tap on free gems",
+    "4":"Tap on "reward ads" button in opened popup",
+    "5":"Minimaze app in tray while showing ad",
+    "6":"Open app from task switcher",
+  },
+  "Expected result":"The ad play from the same place from where the player minimized the app. The advertisement didn't end on the timer. A player received a reward after watching an advertisement"
+}
